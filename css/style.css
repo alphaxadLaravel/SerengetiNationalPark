@@ -799,6 +799,22 @@ section.w3_stats {
     position: relative;
     z-index: 0;
 }
+section.w3_free {
+    background: url(../images/banner2.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+section.w3_free:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.32);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
 section.w3_stats:before {
     position: absolute;
@@ -818,6 +834,11 @@ h2.w3pvt-title {
 }
 
 .w3-stats p {
+    width: 75%;
+    font-size: 1.1em;
+}
+
+.w3-free p {
     width: 75%;
     font-size: 1.1em;
 }
