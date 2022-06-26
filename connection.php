@@ -1,6 +1,6 @@
 <?php
 
-    $conn = mysqli_connect('localhost','root','','serengeti');
+    $conn = mysqli_connect('localhost','root','','sere');
 
 ?>
 

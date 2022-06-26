@@ -5,8 +5,8 @@
     <title>Karibu - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="Creature Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <meta name="keywords"
+        content="Tupo kwaajili ya kukuletea wanyama wa kila aina, wanaowindwa bure na wanao katiwa vibali !" />
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -33,8 +33,9 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+    <!-- banner -->
     <div id="home">
+
         <!-- color scheme -->
         <div class="blast-box">
             <div class="blast-frame">
@@ -53,32 +54,58 @@
             </div>
             <div class="blast-icon"><span class="fa fa-paint-brush" aria-hidden="true"></span></div>
         </div>
+        <?php include "components/top_nav.php"; ?>
 
-        <!-- header -->
-      <?php include "components/top_nav.php"; ?>
-       
-    </div>
 
-    <section class="w3_stats py-sm-5 py-4" id="stats">
-        <div class="container">
-            <div class="py-lg-5 w3-stats mt-5">
-                <h2 class="w3pvt-title  my-5">Free Animals
-                </h2>
-                <p class=" text-white">Free animals found in Serengeti</p>
-                
-            </div>
+        <!-- //header -->
+        <div class="callbacks_container">
+            <ul class="rslides" id="slider3">
+                <li class="banner banner1">
+                    <div class="container">
+                        <div class="banner-text">
+                            <div class="slider-info">
+                                <h3>serengeti national park</h3>
+                                <span class="line"></span>
+                                <p>Welcome to Serengeti National Park</p>
+                                <a class="btn bg-theme mt-4 w3_pvt-link-bnr " data-blast="bgColor" href="paid.php"
+                                    >Explore Animals</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner banner2">
+                    <div class="container">
+                        <div class="banner-text">
+                            <div class="slider-info">
+                                <h3>Free Animals</h3>
+                                <span class="line"></span>
+                                <p>We have a lot of free Animals</p>
+                                <a class="btn bg-theme mt-4 w3_pvt-link-bnr " data-blast="bgColor" href="free.php"
+                                    >Explore Animals</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="banner banner3">
+                    <div class="container">
+                        <div class="banner-text">
+                            <div class="slider-info">
+                                <h3>Licensed Animals to hunt</h3>
+                                <span class="line"></span>
+                                <p>Animals available to hunt</p>
+                                <a class="btn bg-theme mt-4 w3_pvt-link-bnr " data-blast="bgColor" href="paid.php"
+                                    >tazama Wanyama</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </section>
 
-    <!-- wanyama icence -->
-    
-    <!-- orodha ya wanyama na licence zao -->
+    </div>
+    <!-- //banner -->
+    <!--  about -->
 
-  
-    <!-- //footer -->
-
-
-   
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->

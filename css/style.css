@@ -611,6 +611,16 @@ ul.callbacks_tabs {
     background-size: cover;
 }
 
+
+.attract1 {
+    background: url(../images/car-1.jpg) bottom no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
 .banner2 {
     background: url(../images/banner2.jpg) bottom no-repeat;
     -webkit-background-size: cover;
