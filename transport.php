@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Attractions - Serengeti National Park</title>
+    <title>Transports - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="description" content="Wanyama Pori wa kila ain na Vibari vyao" />
@@ -30,16 +30,7 @@
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <style>
-        .attract1 {
-            background: url(../images/car-1.jpg) bottom no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            -ms-background-size: cover;
-            background-size: cover;
-        }
-    </style>
+   
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -52,110 +43,88 @@
     <section class="w3_stats py-sm-5 py-4" id="stats">
         <div class="container">
             <div class="py-lg-5 w3-stats mt-5">
-                <h2 class="w3pvt-title  my-5">We have cars for You!
+                <h2 class="w3pvt-title  my-5">We have Transports for You!
                 </h2>
-                <p class=" text-white">We have cars to take you place to place!!</p>
+                <p class=" text-white">We have cars to take you place to place arround the Park!!</p>
 
             </div>
         </div>
     </section>
-
-
-    <!-- wanyama icence -->
+        
     <section class="blog_w3ls pb-lg-5 pb-4" id="posts">
         <div class="container py-sm-5 py-4">
             <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruise - park II</label>
-
+            <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/car-1.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Land cruiser II</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruiser .</label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/car-5.jpeg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Open hut Car</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-5.jpeg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruise - park II/label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/plane.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Planes</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/haice.png" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Haice</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/bus-1.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Open Bus</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/car-6.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Cruiser III</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruise - park II</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruiser .</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/car-5.jpeg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Land cruise - park II/label>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+           
         </div>
     </section>
-    <!-- orodha ya wanyama na licence zao -->
-
 
     <?php include "components/footer.php" ?>
 

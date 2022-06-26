@@ -30,16 +30,7 @@
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <style>
-        .attract1 {
-            background: url(../images/car-1.jpg) bottom no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            -ms-background-size: cover;
-            background-size: cover;
-        }
-    </style>
+  
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -50,7 +41,7 @@
     <section class="w3_stats py-sm-5 py-4" id="stats">
         <div class="container">
             <div class="py-lg-5 w3-stats mt-5">
-                <h2 class="w3pvt-title  my-5">We have Attractions Forr You!
+                <h2 class="w3pvt-title  my-5">We have Attractions For You!
                 </h2>
                 <p class=" text-white">Pick Your Place of Interests!</p>
 
@@ -58,102 +49,80 @@
         </div>
     </section>
 
-
-    <!-- wanyama icence -->
     <section class="blog_w3ls pb-lg-5 pb-4" id="posts">
         <div class="container py-sm-5 py-4">
             <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attarct-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Ever green - Seronera.</label>
-
+            <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/attarct-1.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Seronela</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attarct-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Seronera Hotels .</label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/attract-2.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">River Gurumeti</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attract-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>River Side hotels.</label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/attract-9.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Pori Kuu</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/attract-0.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">waterfall</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/a-11.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Mbugani</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/attract-3.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Nyumbu</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attract-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Ever green - Seronera.</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attract-3.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Seronera Hotels .</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/attarct-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>River Side hotels.</label>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+           
         </div>
     </section>
-    <!-- orodha ya wanyama na licence zao -->
-
 
     <?php include "components/footer.php" ?>
 

@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Attractions - Serengeti National Park</title>
+    <title>About US - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="description" content="Wanyama Pori wa kila ain na Vibari vyao" />
@@ -45,27 +45,23 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <div id="home">
-      <?php include "components/top_nav.php"; ?>
-        
+        <?php include "components/top_nav.php"; ?>
+
     </div>
 
     <section class="w3_stats py-sm-5 py-4" id="stats">
         <div class="container">
             <div class="py-lg-5 w3-stats mt-5">
-                <h2 class="w3pvt-title  my-5">Contact Us!
+                <h2 class="w3pvt-title  my-5">Our Team members
                 </h2>
 
             </div>
         </div>
     </section>
 
- <!-- team -->
- <section class="team py-4 py-lg-5" id="team">
+    <section class="team py-1" id="team">
         <div class="container py-lg-5 py-sm-4">
-            <div class="title-desc text-center pb-sm-3">
-                <h3 class="main-title-w3pvt">our team</h3>
-                <p>Serengeti National Park Workers.</p>
-            </div>
+
             <div class="row py-4 mt-lg-5  team-grid">
                 <div class="col-md-3">
                     <div class="box13">
@@ -93,7 +89,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="box13">
-                        <img src="images/t-1.jpg" class="img-fluid" style="height: 350px;" alt="" />
+                        <img src="images/t-5.jpg" class="img-fluid" style="height: 350px;" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">Aisha Sadick</h3>
                             <ul class="social">

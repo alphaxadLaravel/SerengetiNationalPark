@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Karibu - Serengeti National Park</title>
+    <title>License animls - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Creature Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -62,7 +62,7 @@
             <div class="py-lg-5 w3-stats mt-5">
                 <h2 class="w3pvt-title  my-5">Licensed Animals to Hunt!
                 </h2>
-                <p class=" text-white">Wanyama Wafuatao Wanahitaji vibali kuwa winda!</p>
+                <p class=" text-white">You need to have Licence to hunt these Animals</p>
 
             </div>
         </div>
@@ -81,7 +81,7 @@
 
                 while ($row = mysqli_fetch_assoc($check)) {
                 ?>
-                    <div class="col-lg-4 col-md-6 mt-sm-0 mt-4">
+                    <div class="col-lg-4 col-md-6 mt-sm-0 my-4">
                         <div class="card">
                             <div class="card-header p-0 position-relative">
                                 <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2" role="button">
@@ -94,10 +94,14 @@
                                 </h5>
                                 <div class="d-flex justify-content-between">
                                     <p>Bei ya kuwinda:</p>
-                                    <p class="fw-bold text-danger"><?php echo $row['bei']; ?>/=</p>
+                                    <p class="fw-bold text-danger">Tzsh <?php echo number_format($row['bei_tzsh']); ?>/=</p>
                                 </div>
-                                <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span><?php echo $row['location']; ?></label>
-                                <a href="https://www.tanzaniaparks.go.tz/" target="_blank" class="btn blog-btn wthree-bnr-btn" >
+                                <div class="d-flex justify-content-between">
+                                    <p>Bei ya kuwinda:</p>
+                                    <p class="fw-bold text-danger">$ <?php echo number_format($row['bei_dollar']); ?>/=</p>
+                                </div>
+                                <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span><?php echo $row['location']; ?></label> <br>
+                                <a href="https://www.tanzaniaparks.go.tz/" target="_blank" class="btn btn-sm w-100 btn-success " >
                                     Pata Kibali hapa
                                 </a>
                             </div>
@@ -108,46 +112,7 @@
         </div>
     </section>
     <!-- orodha ya wanyama na licence zao -->
-
-    <!-- footer -->
-    <footer class="cpy-right bg-theme" data-blast="bgColor">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="wthree-social">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-facebook-f icon_facebook"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-whatsapp icon_twitter"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-dribbble icon_dribbble"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-google-plus icon_g_plus"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-lg-right mt-lg-0 mt-4">
-                    <p>© 2018 Creature. All rights reserved | Design by
-                        <a href="http://alphajozee.me/alpha"> AlphaJozee.</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- //footer -->
+    <?php include "components/footer.php" ?>
 
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>

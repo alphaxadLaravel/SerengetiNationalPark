@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Karibu - Serengeti National Park</title>
+    <title>Free Animals - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Creature Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -34,31 +34,6 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <div id="home">
-        <!-- color scheme -->
-        <div class="blast-box">
-            <div class="blast-frame">
-                <p>color schemes</p>
-                <div class="blast-colors d-flex justify-content-center">
-                    <div class="blast-color">#23d48f</div>
-                    <div class="blast-color">#d3b800</div>
-                    <div class="blast-color">#18e7d3</div>
-                    <div class="blast-color">#e5902a</div>
-                    <div class="blast-color">#16d9e9</div>
-                    <!-- you can add more colors here -->
-                </div>
-                <p class="blast-custom-colors">Choose Custom color</p>
-                <input type="color" name="blastCustomColor" value="#d3b800">
-
-            </div>
-            <div class="blast-icon"><span class="fa fa-paint-brush" aria-hidden="true"></span></div>
-        </div>
-
-        <!-- header -->
-      <?php include "components/top_nav.php"; ?>
-       
-    </div>
-
     <section class="w3_stats py-sm-5 py-4" id="stats">
         <div class="container">
             <div class="py-lg-5 w3-stats mt-5">
@@ -70,15 +45,42 @@
         </div>
     </section>
 
-    <!-- wanyama icence -->
-    
+     <!-- wanyama icence -->
+     <section class="blog_w3ls pb-lg-5 pb-4" id="posts">
+        <div class="container py-sm-5 py-4">
+            <div class="row mt-4">
+                <?php
+
+                include "connection.php";
+
+                $sql = "SELECT * FROM wanyama_free";
+                $check = mysqli_query($conn, $sql);
+
+                while ($row = mysqli_fetch_assoc($check)) {
+                ?>
+                    <div class="col-lg-4 col-md-6 mt-sm-0 my-4">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2" role="button">
+                                    <img class="card-img-bottom" src="<?php echo $row['picha']; ?>" style="height: 300px;" alt="Picha ya Mnyama haipo">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="blog-title card-title font-weight-bold">
+                                    <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2" role="button"><?php echo $row['mnyama']; ?></a>
+                                </h5>
+                                <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span><?php echo $row['location']; ?></label> <br>
+                             
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>
+    </section>
     <!-- orodha ya wanyama na licence zao -->
 
-  
-    <!-- //footer -->
-
-
-   
+      <?php include "components/top_nav.php"; ?>
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->

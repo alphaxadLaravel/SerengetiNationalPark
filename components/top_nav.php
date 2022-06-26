@@ -13,13 +13,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-lg-auto text-center">
 
-                <li class="nav-item active">
+            <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>
+                <li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
                     <a class="nav-link" href="index.php" data-blast="color">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
 
-                <li class="nav-item dropdown mt-lg-0 mt-3">
+                <li class="nav-item <?= ($activePage == 'attractions') || ($activePage == 'transport') || ($activePage == 'accomodation') ? 'active':'';?> dropdown mt-lg-0 mt-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                     </a>
@@ -29,7 +30,7 @@
                         <a class="dropdown-item  nav-link" href="accomodation.php">Accomodation</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown mt-lg-0 mt-3">
+                <li class="nav-item dropdown <?= ($activePage == 'free') || ($activePage == 'paid') ? 'active':'';?> mt-lg-0 mt-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Animals
                     </a>
@@ -38,13 +39,14 @@
                         <a class="dropdown-item  nav-link" href="paid.php">Licensed Animals</a>
                     </div>
                 </li>
-                <li class="nav-item  mt-lg-0 mt-3">
+                <li class="nav-item <?= ($activePage == 'about') ? 'active':''; ?>  mt-lg-0 mt-3">
                     <a class="nav-link " href="about.php">about us</a>
                 </li>
 
-                <li class="nav-item  mt-lg-0 mt-3">
+                <li class="nav-item <?= ($activePage == 'contact') ? 'active':''; ?>  mt-lg-0 mt-3">
                     <a class="nav-link " href="contact.php">Contact Us</a>
                 </li>
+            <?php ?>
 
             </ul>
 

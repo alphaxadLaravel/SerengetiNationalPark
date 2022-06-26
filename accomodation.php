@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Attractions - Serengeti National Park</title>
+    <title>Accomodations - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="description" content="Wanyama Pori wa kila ain na Vibari vyao" />
@@ -32,7 +32,7 @@
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <style>
         .attract1 {
-            background: url(../images/car-1.jpg) bottom no-repeat;
+            background: url(../services/car-1.jpg) bottom no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -58,106 +58,83 @@
         </div>
     </section>
 
-
-    <!-- wanyama icence -->
     <section class="blog_w3ls pb-lg-5 pb-4" id="posts">
         <div class="container py-sm-5 py-4">
             <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-4.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name.</label>
-
+            <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/hotel-3.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">River Side</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name .</label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/hotel.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Pori hotel</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name.</label>
-
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/hostels.webp" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Hostel</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/hotel-2.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Open hotel</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/sero.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Seronera</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 my-2">
+                    <div class="box13">
+                        <img src="services/hotel-4.jpg" class="img-fluid" style="height: 250px;" alt="" />
+                        <div class="box-content">
+                            <h3 class="title" data-blast="color">Sunrise Hotel</h3>
+                            <ul class="social">
+                                <li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-4.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name.</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-1.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name.</label>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false">
-                                <img class="card-img-bottom" src="images/hotel-2.jpg" alt="Card image cap">
-                            </a>
-                        </div>
-                        <div class="card-body">
-
-                            <label class="mt-2"> <span class="fa fa-map-marker mr-3"></span>Hote name.</label>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+           
         </div>
     </section>
-    <!-- orodha ya wanyama na licence zao -->
 
 
     <?php include "components/footer.php" ?>
-
-
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->

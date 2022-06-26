@@ -18,20 +18,15 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="fa fa-dribbble icon_dribbble"></span>
+                                    <span class="fa fa-instagram icon_dribbble"></span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa fa-google-plus icon_g_plus"></span>
-                                </a>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 text-lg-right mt-lg-0 mt-4">
-                    <p>© 2018 Creature. All rights reserved | Design by
-                        <a href="http://alphajozee.me/alpha"> AlphaJozee.</a>
+                    <p>© 2022 Serengeti national park. All rights reserved
                     </p>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Attractions - Serengeti National Park</title>
+    <title>Contact US - Serengeti National Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="description" content="Wanyama Pori wa kila ain na Vibari vyao" />
@@ -30,16 +30,7 @@
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <style>
-        .attract1 {
-            background: url(../images/car-1.jpg) bottom no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            -ms-background-size: cover;
-            background-size: cover;
-        }
-    </style>
+    
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -52,7 +43,7 @@
     <section class="w3_stats py-sm-5 py-4" id="stats">
         <div class="container">
             <div class="py-lg-5 w3-stats mt-5">
-                <h2 class="w3pvt-title  my-5">Contact Me!
+                <h2 class="w3pvt-title  my-5">Contact Us
                 </h2>
 
             </div>
@@ -62,10 +53,6 @@
 
     <section class="contact-wthree py-sm-5 py-4" id="contact">
     <div class="container pt-lg-5">
-        <div class="title-desc text-center pb-sm-3">
-            <h3 class="main-title-w3pvt">contact us</h3>
-            <p>Wasiliana nasi kwa sida yoyote kuhusu Serengeti</p>
-        </div>
         <div class="row mt-4 text-center">
             <div class="contact-w3 col-md-4 ">
                 <span class="fa fa-envelope-open  mb-3" data-blast="color"></span>
